@@ -47,4 +47,4 @@ LINUX
 > Without using ***make*** command
 > 1. Open Terminal
 > 2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP/bin**
-> 3. Type ***./system*** in terminal to run the program
+> 3. Type ***./system.exe*** in terminal to run the program
