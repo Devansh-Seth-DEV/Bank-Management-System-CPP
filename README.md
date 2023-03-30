@@ -2,7 +2,7 @@
 
 ### C++ Command Line Interface(CLI) Based Project
 
-![GitHub all releases](https://img.shields.io/github/downloads/Devansh-Seth-DEV/Bank-Management-System-CPP/total) &nbsp;&nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/Devansh-Seth-DEV/Bank-Management-System-CPP) &nbsp; &nbsp; ![](https://img.shields.io/badge/platform-linux%20%7C%20windows-blueviolet)
+![GitHub all releases](https://img.shields.io/github/downloads/Devansh-Seth-DEV/Bank-Management-System-CPP/total) &nbsp;&nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/Devansh-Seth-DEV/Bank-Management-System-CPP) &nbsp; &nbsp; ![](https://img.shields.io/badge/platform-linux-blueviolet)
 ---
 
 Bank Management System is based on a concept of recording customer’s account details. Here the user can perform all the tasks like creating an account, deposit amount, withdraw amount, transfer amount, check balance, view all account holders detail, close an account and modify an account. There’s no login system for this project.
@@ -19,7 +19,7 @@ Bank Management System is based on a concept of recording customer’s account d
 > * Modify an account
 <br>
 
-Designed for [Linux](https://www.linux.org/), [Windows](https://www.microsoft.com/en-in). *Not yet tested on [macOS!](https://support.apple.com/en-in/macos)*
+Designed for [Linux](https://www.linux.org/). *Not yet tested on [Windows](https://www.microsoft.com/en-in) and [macOS!](https://support.apple.com/en-in/macos)*
 <br><br>
 
 Installation
