@@ -38,4 +38,5 @@ Usage
 ##### Without using ***make*** command
 1. Open Terminal
 2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP/bin**
-3. Type ***./system.exe*** in terminal to run the program
+3. Type **chmode u+x system.exe** in the terminal to allow the program necessary permissions in order to execute properly
+4. Type ***./system.exe*** in terminal to run the program
