@@ -1,7 +1,5 @@
 #include <iostream>
 #include <stdio.h>
-#include <fstream>
-#include <filesystem>
 #include "../header/account.h"
 #include "../header/menu.h"
 #include "../header/crud.h"
