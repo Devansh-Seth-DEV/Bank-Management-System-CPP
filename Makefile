@@ -5,7 +5,7 @@ all: final
 
 final: account.o crud.o menu.o task.o main.o
 	@echo "Binding the <object> files and <source> into <executable>"
-	@$(CC) $(CPPFLAGS) obj/account.o obj/crud.o obj/menu.o obj/task.o obj/main.o -o bin/system
+	@$(CC) $(CPPFLAGS) obj/account.o obj/crud.o obj/menu.o obj/task.o obj/main.o -o bin/system.exe
 
 main.o: src/main.cpp
 	@echo "Compiling the <source>"
@@ -29,7 +29,7 @@ task.o: src/task.cpp
 
 run:
 	@cd bin/ && \
-	./system;
+	./system.exe;
 
 clean:
 	@echo "Destructing the <object> files"
