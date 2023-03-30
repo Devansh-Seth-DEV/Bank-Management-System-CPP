@@ -44,7 +44,7 @@ bool updateRecord(const int action) {
 		Account user;
 		std::string str;
 
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 	
 		if(action == 1) {
@@ -56,7 +56,7 @@ bool updateRecord(const int action) {
 			std::string acc_n;
 
 			while(true) {
-				printf("\e[1;1H\e[2J");
+				system("clear");
 				titleBar();
 
 				std::cout << "				U P D A T E    A C C O U N T    M E N U" << std::endl;
@@ -104,7 +104,7 @@ bool updateRecord(const int action) {
 				else { break; }
 			}
 
-			printf("\e[1;1H\e[2J");
+			system("clear");
 			titleBar();
 		} 
 		
@@ -198,7 +198,7 @@ bool mFlag = false; /* Flag for checking the <esc + escape> key press */
 		if(user.getAccT() == 27) { break; }
 	
 		if(action == 1) {
-			printf("\e[1;1H\e[2J");
+			system("clear");
 			titleBar();
 
 			/* Condition for opening amount with respect to the account type */
@@ -293,7 +293,7 @@ bool mFlag = false; /* Flag for checking the <esc + escape> key press */
 		bool flag2 = false; /* Flag for checking whether the changes to be made or proceed further */
 
 		while(true) {
-			printf("\e[1;1H\e[2J");
+			system("clear");
 			titleBar();
 
 			std::cout << "				A C C O U N T    D E T A I L S" << std::endl;
@@ -373,7 +373,7 @@ bool mFlag = false; /* Flag for checking the <esc + escape> key press */
 
 		/* ---------------------- @Updating Record ---------------------- */
 
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 		
 		if(action == 1) { flag = create(BIN, user); }
@@ -417,14 +417,14 @@ bool mFlag = false; /* Flag for checking the <esc + escape> key press */
  * @return returns boolean true if amount successfully credited/debited otherwise boolean false
  */
 bool transactionMenu(const int action) {
-	printf("\e[1;1H\e[2J");
+	system("clear");
 	titleBar();
 	
 	/* Flag to check whether the transaction processed successfully or not */
 	bool flag = false;
 
 	while(true) {
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 		
 		Account user;
@@ -500,7 +500,7 @@ bool transactionMenu(const int action) {
 			continue;
 		}
 		
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 
 		if(action == 1) {
@@ -561,7 +561,7 @@ bool transactionMenu(const int action) {
 			unsigned long long int amount;
 
 			while(true) {
-				printf("\e[1;1H\e[2J");
+				system("clear");
 				titleBar();
 
 				std::cout << "				T R A N S F E R    M E N U" << std::endl;
@@ -639,7 +639,7 @@ bool transactionMenu(const int action) {
 				}
 
 				else if(t_user.getAccN() == user.getAccN()) {
-					printf("\e[1;1H\e[2J");
+					system("clear");
 					titleBar();
 
 					std::cout << "				SELF TRANSFER NOT ALLOWED !" << std::endl;
@@ -661,7 +661,7 @@ bool transactionMenu(const int action) {
 			}
 		}
 
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 		
 		/* For checking whether the amount successfull transaction */
@@ -722,7 +722,7 @@ bool balanceEnquiry() {
 	std::string acc_n = "";
 
 	while(true) {
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 
 		
@@ -764,7 +764,7 @@ bool balanceEnquiry() {
 		
 		flag = fileflag; /* Updating the flag with fileflag */
 
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 	
 		std::cout << "				A C C O U N T    S T A T U S" << std::endl;
@@ -797,7 +797,7 @@ void showAccountHolders() {
 	size_t bytes = 0; /* To read this much bytes from the records */
 	Account user;
 	
-	printf("\e[1;1H\e[2J");
+	system("clear");
 	titleBar();
 
 	std::cout << "				A C C O U N T    H O L D E R S    L I S T" << std::endl;
@@ -883,7 +883,7 @@ bool closeAccount() {
 	Account user;
 
 	while(true) {
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 
 		std::cout << "				C L O S E    A C C O U N T    M E N U" << std::endl;
@@ -931,7 +931,7 @@ bool closeAccount() {
 		if(confirm.back() == 27) { return false; }
 
 		if(user.getBalance() != 0) {
-			printf("\e[1;1H\e[2J");
+			system("clear");
 			titleBar();
 			
 			std::cout << "				TRANSFER YOUR BALANCE IN YOUR ANOTHER ACCOUNT TO PROCEED" << std::endl << std::endl;
@@ -943,7 +943,7 @@ bool closeAccount() {
 			Account t_user;
 
 			while(true) {
-				printf("\e[1;1H\e[2J");
+				system("clear");
 				titleBar();
 
 				std::cout << "				T R A N S F E R    M E N U" << std::endl;
@@ -1006,7 +1006,7 @@ bool closeAccount() {
 				}
 
 				else if(t_user.getAccN() == user.getAccN()) {
-					printf("\e[1;1H\e[2J");
+					system("clear");
 					titleBar();
 
 					std::cout << "				SELF TRANSFER NOT ALLOWED !" << std::endl;
@@ -1026,7 +1026,7 @@ bool closeAccount() {
 				tflag = update(BIN, t_user);
 
 				if(tflag) {
-					printf("\e[1;1H\e[2J");
+					system("clear");
 					titleBar();
 					std::cout << std::endl;	
 					std::cout << "				AMOUNT SUCCESSFULLY TRANSFERED" << std::endl << std::endl;
@@ -1042,7 +1042,7 @@ bool closeAccount() {
 
 		flag = tflag;
 		if(flag) { del(BIN, user); }
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		titleBar();
 		
 		/* For checking whether the amount successfull transaction */

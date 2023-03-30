@@ -8,7 +8,7 @@
  * @brief the introduction screen of the program
  */
 void introScreen() {
-	printf("\e[1;1H\e[2J");
+	system("clear");
 	std::cout << std::endl;
 	std::cout << "              ------------------------------------------------------------" << std::endl;
 	std::cout << std::endl << std::endl;
@@ -43,7 +43,7 @@ void introScreen() {
  * @return returns the option number which gets selected
  */
 int mainMenu() {
-	printf("\e[1;1H\e[2J");
+	system("clear");
 	std::string choice="1";
 	std::string prev_choice = choice;
 	std::string cur = "$";
@@ -52,7 +52,7 @@ int mainMenu() {
 	bool flag = true;
 	
 	while(flag) {
-		printf("\e[1;1H\e[2J");
+		system("clear");
 		std::cout << std::endl;
 		std::cout << "			 O      B A N K    M A N A G E M E N T    S Y S T E M      O 		" << std::endl;
 		std::cout << "			|$|                                                       |$|		" << std::endl;

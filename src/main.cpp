@@ -32,7 +32,7 @@ int main() {
 		else { run = false; }
 	}
 	
-	printf("\e[1;1H\e[2J");
+	system("clear");
 
 	return 0;	
 }
