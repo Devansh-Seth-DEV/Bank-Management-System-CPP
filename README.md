@@ -31,12 +31,19 @@ Clone this repository by
 Usage
 ---
 ##### Using ***make*** command
-1. Open Terminal
-2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP**
-3. Type ***make run*** in terminal to run the program
+1. Open Terminal <br><br>
+2. Change directory to Project folder <br>
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;`cd INSTALLATION-FOLDER/Bank-Management-System-CPP/` <br><br>
+3. To run the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp; `make run`
+
 
 ##### Without using ***make*** command
-1. Open Terminal
-2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP/bin**
-3. Type **chmode u+x system.exe** in the terminal to allow the program necessary permissions in order to execute properly
-4. Type ***./system.exe*** in terminal to run the program
+1. Open Terminal <br><br>
+2. Change directory to Project Executable folder <br> 
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+
+&nbsp; &nbsp; &nbsp; &nbsp; `cd INSTALLATION-FOLDER/Bank-Management-System-CPP/bin` <br><br>
+3. Give the program necessary permissions in order to execute properly <br> &nbsp; &nbsp; &nbsp; &nbsp;`chmod u+x system.exe` <br><br>
+4. To run the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp;`./system.exe`
