@@ -30,13 +30,12 @@ Clone this repository by
 
 Usage
 ---
-***Linux***
-> Using ***make*** command
-> 1. Open Terminal
-> 2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP**
-> 3. Type ***make run*** in terminal to run the program
-> 
-> Without using ***make*** command
-> 1. Open Terminal
-> 2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP/bin**
-> 3. Type ***./system.exe*** in terminal to run the program
+##### Using ***make*** command
+1. Open Terminal
+2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP**
+3. Type ***make run*** in terminal to run the program
+
+##### Without using ***make*** command
+1. Open Terminal
+2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP/bin**
+3. Type ***./system.exe*** in terminal to run the program
