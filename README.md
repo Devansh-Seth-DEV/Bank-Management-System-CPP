@@ -30,15 +30,7 @@ Clone this repository by
 
 Usage
 ---
-WINDOWS
-> 1. Open the ***INSTALLATION FOLDER***
-> 2. Inside it move into the **Bank-Management-System-CPP** folder
-> 3. Inside project folder move into the ***bin*** folder
-> 4. Run ***system.exe***
-
-<br>
-
-LINUX
+***Linux***
 > Using ***make*** command
 > 1. Open Terminal
 > 2. Change directory to **INSTALLATION-FOLDER/Bank-Management-System-CPP**
