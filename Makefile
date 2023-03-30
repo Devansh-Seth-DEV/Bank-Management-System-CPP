@@ -28,6 +28,7 @@ task.o: src/task.cpp
 	@$(CC) $(CPPFLAGS) -c src/task.cpp -o obj/task.o
 
 run:
+	@chmod u+x bin/system.exe
 	@cd bin/ && \
 	./system.exe;
 
