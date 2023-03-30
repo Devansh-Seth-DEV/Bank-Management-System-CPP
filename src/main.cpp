@@ -5,8 +5,6 @@
 #include "../header/crud.h"
 #include "../header/task.h"
 
-#define BIN "record.bin"
-
 int main() {
 	int ch;
 	bool run = true; /* to run the program until not exited */
