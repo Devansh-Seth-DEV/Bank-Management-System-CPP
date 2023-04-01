@@ -30,6 +30,20 @@ Clone this repository by
 
 Usage
 ---
+
+How to compile
+---
+1. Open Terminal <br><br>
+
+2. Change directory to Project folder <br>
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+
+&nbsp; &nbsp; &nbsp; &nbsp;`cd INSTALLATION-FOLDER/Bank-Management-System-CPP/` <br><br>
+3. To compile the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp; `make all`
+<br><br>
+
+How to run
+---
 ##### Using ***make*** command
 1. Open Terminal <br><br>
 2. Change directory to Project folder <br>
@@ -37,7 +51,7 @@ Usage
 
 &nbsp; &nbsp; &nbsp; &nbsp;`cd INSTALLATION-FOLDER/Bank-Management-System-CPP/` <br><br>
 3. To run the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp; `make run`
-
+<br><br>
 
 ##### Without using ***make*** command
 1. Open Terminal <br><br>
