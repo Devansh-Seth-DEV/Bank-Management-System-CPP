@@ -8,7 +8,7 @@
 void titleBar();
 
 /**
- * CreateNewAccount Function
+ * UpdateRecord Function
  * @brief updates the records
  *
  * @param action 1 for creation of new account and other for account updation
