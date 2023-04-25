@@ -9,6 +9,7 @@ class Account {
 private:
 	static unsigned short int t_mem; // Total accounts
 
+/* Joining Date and Time */
 	int jHrs;
 	int jMin;
 	int jSec;
