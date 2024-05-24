@@ -25,7 +25,9 @@ Designed for [Linux](https://www.linux.org/). *Not yet tested on [Windows](https
 Installation
 ---
 Clone this repository by
-`git clone https://github.com/Devansh-Seth-DEV/Bank-Management-System-CPP.git`
+```bash
+git clone https://github.com/Devansh-Seth-DEV/Bank-Management-System-CPP.git
+```
 <br><br>
 
 Usage
@@ -33,31 +35,51 @@ Usage
 
 How to compile
 ---
-1. Open Terminal <br><br>
+1. Open Terminal <br>
 
 2. Change directory to Project folder <br>
-> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project.
+```bash
+cd INSTALLATION-FOLDER/Bank-Management-System-CPP/
+```
 
-&nbsp; &nbsp; &nbsp; &nbsp;`cd INSTALLATION-FOLDER/Bank-Management-System-CPP/` <br><br>
-3. To compile the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp; `make all`
-<br><br>
+3. To compile the program type in terminal
+```bash 
+make all
+```
+<br>
 
 How to run
 ---
 ##### Using ***make*** command
-1. Open Terminal <br><br>
+1. Open Terminal <br>
 2. Change directory to Project folder <br>
-> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project.
+```bash
+cd INSTALLATION-FOLDER/Bank-Management-System-CPP/
+```
+<br>
 
-&nbsp; &nbsp; &nbsp; &nbsp;`cd INSTALLATION-FOLDER/Bank-Management-System-CPP/` <br><br>
-3. To run the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp; `make run`
+3. To run the program type in terminal
+```bash
+make run
+```
 <br><br>
 
 ##### Without using ***make*** command
-1. Open Terminal <br><br>
+1. Open Terminal <br>
 2. Change directory to Project Executable folder <br> 
-> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project. <br>
+> NOTE: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; change the ***INSTALLATION-FOLDER*** with the folder name in which you cloned the project.
+```bash
+cd INSTALLATION-FOLDER/Bank-Management-System-CPP/bin
+```
+<br>
 
-&nbsp; &nbsp; &nbsp; &nbsp; `cd INSTALLATION-FOLDER/Bank-Management-System-CPP/bin` <br><br>
-3. Give the program necessary permissions in order to execute properly <br> &nbsp; &nbsp; &nbsp; &nbsp;`chmod u+x system.exe` <br><br>
-4. To run the program type in terminal <br> &nbsp; &nbsp; &nbsp; &nbsp;`./system.exe`
+3. Give the program necessary permissions in order to execute properly
+```bash
+chmod u+x system.exe
+```
+4. To run the program type in terminal
+```bash
+./system.exe
+```
